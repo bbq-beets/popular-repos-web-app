@@ -22,6 +22,7 @@
   },
   "overrides": [
     {
+      "files": ["**/*.js"],
       "rules": {
         "**": "warn"
       }
