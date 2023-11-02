@@ -10,10 +10,10 @@
     "prettier"
   ],
   "ignorePatterns": ["src/external"],
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
+  // "parser": "@typescript-eslint/parser",
+  //"parserOptions": {
     // "project": "./tsconfig.json"
-  },
+  //},
   "plugins": ["@typescript-eslint", "prettier"],
   "reportUnusedDisableDirectives": true,
   "root": true,
