@@ -17,5 +17,7 @@
   //"plugins": ["@typescript-eslint", "prettier"],
   "reportUnusedDisableDirectives": true,
   "root": true,
-  "rules": {}
+  "rules": {
+    'no-undef': ['warn']
+  }
 }
