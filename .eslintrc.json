@@ -22,7 +22,9 @@
   },
   "overrides": [
     {
-      "**": "warn"
+      "rules": {
+        "**": "warn"
+      }
     }
   ]
 }
