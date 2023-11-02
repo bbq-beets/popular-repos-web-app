@@ -18,6 +18,11 @@
   "reportUnusedDisableDirectives": true,
   "root": true,
   "rules": {
-    "**": "warn"
-  }
+    "no-undef": "off"
+  },
+  "overrides": [
+    {
+      "**": "warn"
+    }
+  ]
 }
