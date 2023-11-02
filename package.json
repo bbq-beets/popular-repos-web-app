@@ -9,7 +9,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "lint": "eslint . --ext .ts",
+    "lint": "eslint . --ext .js",
     "start": "webpack-dev-server --open --mode development"
   },
   "engines": {
