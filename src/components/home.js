@@ -3,7 +3,7 @@ const PropTypes = require('prop-types');
 const api = require('../utils/api');
 
 function SelectLanguage(props) { 
-  const languages = ['All', 'JavaScript', 'Java', 'CSharp', 'Python', 'Rust', 'Go','Typescript'];
+  const languages = ['All', 'JavaScript', 'Java', 'CSharp','Rust', 'Go','Typescript'];
 
   return (
     <div>
